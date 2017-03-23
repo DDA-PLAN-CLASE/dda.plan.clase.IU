@@ -186,6 +186,15 @@
 </xs:sequence>
 </xs:complexType>
 
+<xs:complexType name="Periodo">
+<xs:sequence>
+<xs:element name="Codigo" type="xs:string" minOccurs="0"/>
+<xs:element name="Descripcion" type="xs:string" minOccurs="0"/>
+<xs:element name="FechaInicio" type="xs:dateTime"/>
+<xs:element name="FechaFin" type="xs:dateTime"/>
+</xs:sequence>
+</xs:complexType>
+
 <xs:complexType name="Facultad">
 <xs:sequence>
 <xs:element name="Codigo" type="xs:string" minOccurs="0"/>
@@ -195,15 +204,6 @@
 <xs:element name="FechaCreacion" type="xs:dateTime"/>
 <xs:element name="Ubicacion" type="xs:string" minOccurs="0"/>
 <xs:element name="CodEstado" type="xs:string" minOccurs="0"/>
-</xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="Periodo">
-<xs:sequence>
-<xs:element name="Codigo" type="xs:string" minOccurs="0"/>
-<xs:element name="Descripcion" type="xs:string" minOccurs="0"/>
-<xs:element name="FechaInicio" type="xs:dateTime"/>
-<xs:element name="FechaFin" type="xs:dateTime"/>
 </xs:sequence>
 </xs:complexType>
 

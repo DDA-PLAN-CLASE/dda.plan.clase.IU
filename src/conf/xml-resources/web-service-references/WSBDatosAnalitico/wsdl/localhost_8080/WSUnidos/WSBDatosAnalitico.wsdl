@@ -13,35 +13,17 @@
 <message name="MallaCurricularPensumVigenteSinDescripcionResponse">
 <part name="parameters" element="tns:MallaCurricularPensumVigenteSinDescripcionResponse"/>
 </message>
-<message name="DatosDocente">
-<part name="parameters" element="tns:DatosDocente"/>
+<message name="lPAMateriasDocente">
+<part name="parameters" element="tns:lPAMateriasDocente"/>
 </message>
-<message name="DatosDocenteResponse">
-<part name="parameters" element="tns:DatosDocenteResponse"/>
-</message>
-<message name="lPADatosMateria">
-<part name="parameters" element="tns:lPADatosMateria"/>
-</message>
-<message name="lPADatosMateriaResponse">
-<part name="parameters" element="tns:lPADatosMateriaResponse"/>
-</message>
-<message name="getHorariosDocenteParalelo">
-<part name="parameters" element="tns:getHorariosDocenteParalelo"/>
-</message>
-<message name="getHorariosDocenteParaleloResponse">
-<part name="parameters" element="tns:getHorariosDocenteParaleloResponse"/>
+<message name="lPAMateriasDocenteResponse">
+<part name="parameters" element="tns:lPAMateriasDocenteResponse"/>
 </message>
 <message name="lPADictadosMateria">
 <part name="parameters" element="tns:lPADictadosMateria"/>
 </message>
 <message name="lPADictadosMateriaResponse">
 <part name="parameters" element="tns:lPADictadosMateriaResponse"/>
-</message>
-<message name="lPAMateriasDocente">
-<part name="parameters" element="tns:lPAMateriasDocente"/>
-</message>
-<message name="lPAMateriasDocenteResponse">
-<part name="parameters" element="tns:lPAMateriasDocenteResponse"/>
 </message>
 <message name="lPAMateriasAprobadas">
 <part name="parameters" element="tns:lPAMateriasAprobadas"/>
@@ -61,35 +43,35 @@
 <message name="lPATitulosDocentesResponse">
 <part name="parameters" element="tns:lPATitulosDocentesResponse"/>
 </message>
+<message name="getHorariosDocenteParalelo">
+<part name="parameters" element="tns:getHorariosDocenteParalelo"/>
+</message>
+<message name="getHorariosDocenteParaleloResponse">
+<part name="parameters" element="tns:getHorariosDocenteParaleloResponse"/>
+</message>
+<message name="lPADatosMateria">
+<part name="parameters" element="tns:lPADatosMateria"/>
+</message>
+<message name="lPADatosMateriaResponse">
+<part name="parameters" element="tns:lPADatosMateriaResponse"/>
+</message>
+<message name="DatosDocente">
+<part name="parameters" element="tns:DatosDocente"/>
+</message>
+<message name="DatosDocenteResponse">
+<part name="parameters" element="tns:DatosDocenteResponse"/>
+</message>
 <message name="EscuelaEntidad">
 <part name="parameters" element="tns:EscuelaEntidad"/>
 </message>
 <message name="EscuelaEntidadResponse">
 <part name="parameters" element="tns:EscuelaEntidadResponse"/>
 </message>
-<message name="lEjemploJson">
-<part name="parameters" element="tns:lEjemploJson"/>
+<message name="lPADictadosMateria_1">
+<part name="parameters" element="tns:lPADictadosMateria_1"/>
 </message>
-<message name="lEjemploJsonResponse">
-<part name="parameters" element="tns:lEjemploJsonResponse"/>
-</message>
-<message name="lPADevolverDatosGenerales">
-<part name="parameters" element="tns:lPADevolverDatosGenerales"/>
-</message>
-<message name="lPADevolverDatosGeneralesResponse">
-<part name="parameters" element="tns:lPADevolverDatosGeneralesResponse"/>
-</message>
-<message name="lDevolverCaracterizacionPA">
-<part name="parameters" element="tns:lDevolverCaracterizacionPA"/>
-</message>
-<message name="lDevolverCaracterizacionPAResponse">
-<part name="parameters" element="tns:lDevolverCaracterizacionPAResponse"/>
-</message>
-<message name="lAutenticarUsuario">
-<part name="parameters" element="tns:lAutenticarUsuario"/>
-</message>
-<message name="lAutenticarUsuarioResponse">
-<part name="parameters" element="tns:lAutenticarUsuarioResponse"/>
+<message name="lPADictadosMateria_1Response">
+<part name="parameters" element="tns:lPADictadosMateria_1Response"/>
 </message>
 <message name="lDevolverFacultades">
 <part name="parameters" element="tns:lDevolverFacultades"/>
@@ -97,11 +79,23 @@
 <message name="lDevolverFacultadesResponse">
 <part name="parameters" element="tns:lDevolverFacultadesResponse"/>
 </message>
+<message name="getPeriodoActualSWU">
+<part name="parameters" element="tns:getPeriodoActualSWU"/>
+</message>
+<message name="getPeriodoActualSWUResponse">
+<part name="parameters" element="tns:getPeriodoActualSWUResponse"/>
+</message>
 <message name="lDevolverEscuelasFacultad">
 <part name="parameters" element="tns:lDevolverEscuelasFacultad"/>
 </message>
 <message name="lDevolverEscuelasFacultadResponse">
 <part name="parameters" element="tns:lDevolverEscuelasFacultadResponse"/>
+</message>
+<message name="lAutenticarUsuario">
+<part name="parameters" element="tns:lAutenticarUsuario"/>
+</message>
+<message name="lAutenticarUsuarioResponse">
+<part name="parameters" element="tns:lAutenticarUsuarioResponse"/>
 </message>
 <message name="lDevolverObjetivoPA">
 <part name="parameters" element="tns:lDevolverObjetivoPA"/>
@@ -115,47 +109,11 @@
 <message name="lDevolverRolesDocenteResponse">
 <part name="parameters" element="tns:lDevolverRolesDocenteResponse"/>
 </message>
-<message name="lDevolverPlanAnalitico">
-<part name="parameters" element="tns:lDevolverPlanAnalitico"/>
-</message>
-<message name="lDevolverPlanAnaliticoResponse">
-<part name="parameters" element="tns:lDevolverPlanAnaliticoResponse"/>
-</message>
-<message name="lPADevolverPerfilDocente">
-<part name="parameters" element="tns:lPADevolverPerfilDocente"/>
-</message>
-<message name="lPADevolverPerfilDocenteResponse">
-<part name="parameters" element="tns:lPADevolverPerfilDocenteResponse"/>
-</message>
 <message name="lDevolverAdminFacultad">
 <part name="parameters" element="tns:lDevolverAdminFacultad"/>
 </message>
 <message name="lDevolverAdminFacultadResponse">
 <part name="parameters" element="tns:lDevolverAdminFacultadResponse"/>
-</message>
-<message name="lPADevolverContenidos">
-<part name="parameters" element="tns:lPADevolverContenidos"/>
-</message>
-<message name="lPADevolverContenidosResponse">
-<part name="parameters" element="tns:lPADevolverContenidosResponse"/>
-</message>
-<message name="DatosCompletosEstudiantes">
-<part name="parameters" element="tns:DatosCompletosEstudiantes"/>
-</message>
-<message name="DatosCompletosEstudiantesResponse">
-<part name="parameters" element="tns:DatosCompletosEstudiantesResponse"/>
-</message>
-<message name="lPADevolverFacultad">
-<part name="parameters" element="tns:lPADevolverFacultad"/>
-</message>
-<message name="lPADevolverFacultadResponse">
-<part name="parameters" element="tns:lPADevolverFacultadResponse"/>
-</message>
-<message name="lPADictadosMateria_1">
-<part name="parameters" element="tns:lPADictadosMateria_1"/>
-</message>
-<message name="lPADictadosMateria_1Response">
-<part name="parameters" element="tns:lPADictadosMateria_1Response"/>
 </message>
 <message name="lDevolverMetodologia">
 <part name="parameters" element="tns:lDevolverMetodologia"/>
@@ -163,36 +121,66 @@
 <message name="lDevolverMetodologiaResponse">
 <part name="parameters" element="tns:lDevolverMetodologiaResponse"/>
 </message>
-<message name="getPeriodoActualSWU">
-<part name="parameters" element="tns:getPeriodoActualSWU"/>
+<message name="lDevolverCaracterizacionPA">
+<part name="parameters" element="tns:lDevolverCaracterizacionPA"/>
 </message>
-<message name="getPeriodoActualSWUResponse">
-<part name="parameters" element="tns:getPeriodoActualSWUResponse"/>
+<message name="lDevolverCaracterizacionPAResponse">
+<part name="parameters" element="tns:lDevolverCaracterizacionPAResponse"/>
+</message>
+<message name="DatosCompletosEstudiantes">
+<part name="parameters" element="tns:DatosCompletosEstudiantes"/>
+</message>
+<message name="DatosCompletosEstudiantesResponse">
+<part name="parameters" element="tns:DatosCompletosEstudiantesResponse"/>
+</message>
+<message name="lPADevolverPerfilDocente">
+<part name="parameters" element="tns:lPADevolverPerfilDocente"/>
+</message>
+<message name="lPADevolverPerfilDocenteResponse">
+<part name="parameters" element="tns:lPADevolverPerfilDocenteResponse"/>
+</message>
+<message name="lPADevolverDatosGenerales">
+<part name="parameters" element="tns:lPADevolverDatosGenerales"/>
+</message>
+<message name="lPADevolverDatosGeneralesResponse">
+<part name="parameters" element="tns:lPADevolverDatosGeneralesResponse"/>
+</message>
+<message name="lPADevolverFacultad">
+<part name="parameters" element="tns:lPADevolverFacultad"/>
+</message>
+<message name="lPADevolverFacultadResponse">
+<part name="parameters" element="tns:lPADevolverFacultadResponse"/>
+</message>
+<message name="lDevolverPlanAnalitico">
+<part name="parameters" element="tns:lDevolverPlanAnalitico"/>
+</message>
+<message name="lDevolverPlanAnaliticoResponse">
+<part name="parameters" element="tns:lDevolverPlanAnaliticoResponse"/>
+</message>
+<message name="lPADevolverContenidos">
+<part name="parameters" element="tns:lPADevolverContenidos"/>
+</message>
+<message name="lPADevolverContenidosResponse">
+<part name="parameters" element="tns:lPADevolverContenidosResponse"/>
+</message>
+<message name="lEjemploJson">
+<part name="parameters" element="tns:lEjemploJson"/>
+</message>
+<message name="lEjemploJsonResponse">
+<part name="parameters" element="tns:lEjemploJsonResponse"/>
 </message>
 <portType name="WSBDatosAnalitico">
 <operation name="MallaCurricularPensumVigenteSinDescripcion">
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/MallaCurricularPensumVigenteSinDescripcionRequest" message="tns:MallaCurricularPensumVigenteSinDescripcion"/>
 <output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/MallaCurricularPensumVigenteSinDescripcionResponse" message="tns:MallaCurricularPensumVigenteSinDescripcionResponse"/>
 </operation>
-<operation name="DatosDocente">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/DatosDocenteRequest" message="tns:DatosDocente"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/DatosDocenteResponse" message="tns:DatosDocenteResponse"/>
-</operation>
-<operation name="lPADatosMateria">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADatosMateriaRequest" message="tns:lPADatosMateria"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADatosMateriaResponse" message="tns:lPADatosMateriaResponse"/>
-</operation>
-<operation name="getHorariosDocenteParalelo">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/getHorariosDocenteParaleloRequest" message="tns:getHorariosDocenteParalelo"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/getHorariosDocenteParaleloResponse" message="tns:getHorariosDocenteParaleloResponse"/>
+<operation name="lPAMateriasDocente">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPAMateriasDocenteRequest" message="tns:lPAMateriasDocente"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPAMateriasDocenteResponse" message="tns:lPAMateriasDocenteResponse"/>
 </operation>
 <operation name="lPADictadosMateria">
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADictadosMateriaRequest" message="tns:lPADictadosMateria"/>
 <output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADictadosMateriaResponse" message="tns:lPADictadosMateriaResponse"/>
-</operation>
-<operation name="lPAMateriasDocente">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPAMateriasDocenteRequest" message="tns:lPAMateriasDocente"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPAMateriasDocenteResponse" message="tns:lPAMateriasDocenteResponse"/>
 </operation>
 <operation name="lPAMateriasAprobadas">
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPAMateriasAprobadasRequest" message="tns:lPAMateriasAprobadas"/>
@@ -206,33 +194,41 @@
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPATitulosDocentesRequest" message="tns:lPATitulosDocentes"/>
 <output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPATitulosDocentesResponse" message="tns:lPATitulosDocentesResponse"/>
 </operation>
+<operation name="getHorariosDocenteParalelo">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/getHorariosDocenteParaleloRequest" message="tns:getHorariosDocenteParalelo"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/getHorariosDocenteParaleloResponse" message="tns:getHorariosDocenteParaleloResponse"/>
+</operation>
+<operation name="lPADatosMateria">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADatosMateriaRequest" message="tns:lPADatosMateria"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADatosMateriaResponse" message="tns:lPADatosMateriaResponse"/>
+</operation>
+<operation name="DatosDocente">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/DatosDocenteRequest" message="tns:DatosDocente"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/DatosDocenteResponse" message="tns:DatosDocenteResponse"/>
+</operation>
 <operation name="EscuelaEntidad">
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/EscuelaEntidadRequest" message="tns:EscuelaEntidad"/>
 <output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/EscuelaEntidadResponse" message="tns:EscuelaEntidadResponse"/>
 </operation>
-<operation name="lEjemploJson">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lEjemploJsonRequest" message="tns:lEjemploJson"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lEjemploJsonResponse" message="tns:lEjemploJsonResponse"/>
-</operation>
-<operation name="lPADevolverDatosGenerales">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverDatosGeneralesRequest" message="tns:lPADevolverDatosGenerales"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverDatosGeneralesResponse" message="tns:lPADevolverDatosGeneralesResponse"/>
-</operation>
-<operation name="lDevolverCaracterizacionPA">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverCaracterizacionPARequest" message="tns:lDevolverCaracterizacionPA"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverCaracterizacionPAResponse" message="tns:lDevolverCaracterizacionPAResponse"/>
-</operation>
-<operation name="lAutenticarUsuario">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lAutenticarUsuarioRequest" message="tns:lAutenticarUsuario"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lAutenticarUsuarioResponse" message="tns:lAutenticarUsuarioResponse"/>
+<operation name="lPADictadosMateria_1">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADictadosMateria_1Request" message="tns:lPADictadosMateria_1"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADictadosMateria_1Response" message="tns:lPADictadosMateria_1Response"/>
 </operation>
 <operation name="lDevolverFacultades">
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverFacultadesRequest" message="tns:lDevolverFacultades"/>
 <output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverFacultadesResponse" message="tns:lDevolverFacultadesResponse"/>
 </operation>
+<operation name="getPeriodoActualSWU">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/getPeriodoActualSWURequest" message="tns:getPeriodoActualSWU"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/getPeriodoActualSWUResponse" message="tns:getPeriodoActualSWUResponse"/>
+</operation>
 <operation name="lDevolverEscuelasFacultad">
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverEscuelasFacultadRequest" message="tns:lDevolverEscuelasFacultad"/>
 <output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverEscuelasFacultadResponse" message="tns:lDevolverEscuelasFacultadResponse"/>
+</operation>
+<operation name="lAutenticarUsuario">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lAutenticarUsuarioRequest" message="tns:lAutenticarUsuario"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lAutenticarUsuarioResponse" message="tns:lAutenticarUsuarioResponse"/>
 </operation>
 <operation name="lDevolverObjetivoPA">
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverObjetivoPARequest" message="tns:lDevolverObjetivoPA"/>
@@ -242,41 +238,45 @@
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverRolesDocenteRequest" message="tns:lDevolverRolesDocente"/>
 <output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverRolesDocenteResponse" message="tns:lDevolverRolesDocenteResponse"/>
 </operation>
-<operation name="lDevolverPlanAnalitico">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverPlanAnaliticoRequest" message="tns:lDevolverPlanAnalitico"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverPlanAnaliticoResponse" message="tns:lDevolverPlanAnaliticoResponse"/>
-</operation>
-<operation name="lPADevolverPerfilDocente">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverPerfilDocenteRequest" message="tns:lPADevolverPerfilDocente"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverPerfilDocenteResponse" message="tns:lPADevolverPerfilDocenteResponse"/>
-</operation>
 <operation name="lDevolverAdminFacultad">
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverAdminFacultadRequest" message="tns:lDevolverAdminFacultad"/>
 <output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverAdminFacultadResponse" message="tns:lDevolverAdminFacultadResponse"/>
-</operation>
-<operation name="lPADevolverContenidos">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverContenidosRequest" message="tns:lPADevolverContenidos"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverContenidosResponse" message="tns:lPADevolverContenidosResponse"/>
-</operation>
-<operation name="DatosCompletosEstudiantes">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/DatosCompletosEstudiantesRequest" message="tns:DatosCompletosEstudiantes"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/DatosCompletosEstudiantesResponse" message="tns:DatosCompletosEstudiantesResponse"/>
-</operation>
-<operation name="lPADevolverFacultad">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverFacultadRequest" message="tns:lPADevolverFacultad"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverFacultadResponse" message="tns:lPADevolverFacultadResponse"/>
-</operation>
-<operation name="lPADictadosMateria_1">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADictadosMateria_1Request" message="tns:lPADictadosMateria_1"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADictadosMateria_1Response" message="tns:lPADictadosMateria_1Response"/>
 </operation>
 <operation name="lDevolverMetodologia">
 <input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverMetodologiaRequest" message="tns:lDevolverMetodologia"/>
 <output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverMetodologiaResponse" message="tns:lDevolverMetodologiaResponse"/>
 </operation>
-<operation name="getPeriodoActualSWU">
-<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/getPeriodoActualSWURequest" message="tns:getPeriodoActualSWU"/>
-<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/getPeriodoActualSWUResponse" message="tns:getPeriodoActualSWUResponse"/>
+<operation name="lDevolverCaracterizacionPA">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverCaracterizacionPARequest" message="tns:lDevolverCaracterizacionPA"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverCaracterizacionPAResponse" message="tns:lDevolverCaracterizacionPAResponse"/>
+</operation>
+<operation name="DatosCompletosEstudiantes">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/DatosCompletosEstudiantesRequest" message="tns:DatosCompletosEstudiantes"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/DatosCompletosEstudiantesResponse" message="tns:DatosCompletosEstudiantesResponse"/>
+</operation>
+<operation name="lPADevolverPerfilDocente">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverPerfilDocenteRequest" message="tns:lPADevolverPerfilDocente"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverPerfilDocenteResponse" message="tns:lPADevolverPerfilDocenteResponse"/>
+</operation>
+<operation name="lPADevolverDatosGenerales">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverDatosGeneralesRequest" message="tns:lPADevolverDatosGenerales"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverDatosGeneralesResponse" message="tns:lPADevolverDatosGeneralesResponse"/>
+</operation>
+<operation name="lPADevolverFacultad">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverFacultadRequest" message="tns:lPADevolverFacultad"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverFacultadResponse" message="tns:lPADevolverFacultadResponse"/>
+</operation>
+<operation name="lDevolverPlanAnalitico">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverPlanAnaliticoRequest" message="tns:lDevolverPlanAnalitico"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lDevolverPlanAnaliticoResponse" message="tns:lDevolverPlanAnaliticoResponse"/>
+</operation>
+<operation name="lPADevolverContenidos">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverContenidosRequest" message="tns:lPADevolverContenidos"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lPADevolverContenidosResponse" message="tns:lPADevolverContenidosResponse"/>
+</operation>
+<operation name="lEjemploJson">
+<input wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lEjemploJsonRequest" message="tns:lEjemploJson"/>
+<output wsam:Action="http://locales.ServiciosWeb.pa/WSBDatosAnalitico/lEjemploJsonResponse" message="tns:lEjemploJsonResponse"/>
 </operation>
 </portType>
 <binding name="WSBDatosAnaliticoPortBinding" type="tns:WSBDatosAnalitico">
@@ -290,25 +290,7 @@
 <soap:body use="literal"/>
 </output>
 </operation>
-<operation name="DatosDocente">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="lPADatosMateria">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="getHorariosDocenteParalelo">
+<operation name="lPAMateriasDocente">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
@@ -318,15 +300,6 @@
 </output>
 </operation>
 <operation name="lPADictadosMateria">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="lPAMateriasDocente">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
@@ -362,6 +335,33 @@
 <soap:body use="literal"/>
 </output>
 </operation>
+<operation name="getHorariosDocenteParalelo">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="lPADatosMateria">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="DatosDocente">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
 <operation name="EscuelaEntidad">
 <soap:operation soapAction=""/>
 <input>
@@ -371,34 +371,7 @@
 <soap:body use="literal"/>
 </output>
 </operation>
-<operation name="lEjemploJson">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="lPADevolverDatosGenerales">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="lDevolverCaracterizacionPA">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="lAutenticarUsuario">
+<operation name="lPADictadosMateria_1">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
@@ -416,7 +389,25 @@
 <soap:body use="literal"/>
 </output>
 </operation>
+<operation name="getPeriodoActualSWU">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
 <operation name="lDevolverEscuelasFacultad">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="lAutenticarUsuario">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
@@ -443,61 +434,7 @@
 <soap:body use="literal"/>
 </output>
 </operation>
-<operation name="lDevolverPlanAnalitico">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="lPADevolverPerfilDocente">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
 <operation name="lDevolverAdminFacultad">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="lPADevolverContenidos">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="DatosCompletosEstudiantes">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="lPADevolverFacultad">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
-<operation name="lPADictadosMateria_1">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
@@ -515,7 +452,70 @@
 <soap:body use="literal"/>
 </output>
 </operation>
-<operation name="getPeriodoActualSWU">
+<operation name="lDevolverCaracterizacionPA">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="DatosCompletosEstudiantes">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="lPADevolverPerfilDocente">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="lPADevolverDatosGenerales">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="lPADevolverFacultad">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="lDevolverPlanAnalitico">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="lPADevolverContenidos">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="lEjemploJson">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>

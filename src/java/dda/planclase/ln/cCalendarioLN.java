@@ -70,6 +70,9 @@ public class cCalendarioLN{
         return port.getPeriodoActualSWU();
     }
     
+    
+    
+    
     public List<cCalendario> getCalendario() {
         List<cCalendario> lCalendario = new ArrayList<>();
         cCalendarioAD ocalendarioAD = new cCalendarioAD();
@@ -122,5 +125,11 @@ public class cCalendarioLN{
                 DiasCalendario.put(ff, estadodia);
         }
         return DiasCalendario;
+    }
+
+    private static ec.edu.espoch.academico.Periodo getPeriodoActualSWU_1() {
+        pa.serviciosweb.locales.WSBDatosAnalitico_Service service = new pa.serviciosweb.locales.WSBDatosAnalitico_Service();
+        pa.serviciosweb.locales.WSBDatosAnalitico port = service.getWSBDatosAnaliticoPort();
+        return port.getPeriodoActualSWU();
     }
 }

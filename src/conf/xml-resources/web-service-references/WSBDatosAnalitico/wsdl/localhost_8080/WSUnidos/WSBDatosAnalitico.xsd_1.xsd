@@ -479,6 +479,16 @@
 </xs:sequence>
 </xs:complexType>
 
+<xs:complexType name="getPeriodoActualSWU">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getPeriodoActualSWUResponse">
+<xs:sequence>
+<xs:element name="return" type="ns1:Periodo" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
 <xs:complexType name="lPADevolverFacultad">
 <xs:sequence>
 <xs:element name="codigoFacultad" type="xs:string" minOccurs="0"/>
@@ -488,16 +498,6 @@
 <xs:complexType name="lPADevolverFacultadResponse">
 <xs:sequence>
 <xs:element name="return" type="ns1:Facultad" minOccurs="0"/>
-</xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="getPeriodoActualSWU">
-<xs:sequence/>
-</xs:complexType>
-
-<xs:complexType name="getPeriodoActualSWUResponse">
-<xs:sequence>
-<xs:element name="return" type="ns1:Periodo" minOccurs="0"/>
 </xs:sequence>
 </xs:complexType>
 
