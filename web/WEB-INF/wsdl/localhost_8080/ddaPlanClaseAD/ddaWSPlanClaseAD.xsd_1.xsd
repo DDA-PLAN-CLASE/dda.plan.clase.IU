@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://ws.planclase.dda/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws.planclase.dda/">
+
+<xs:element name="ParseException" type="tns:ParseException"/>
+
+<xs:element name="determinar" type="tns:determinar"/>
+
+<xs:element name="determinarDiaSemana" type="tns:determinarDiaSemana"/>
+
+<xs:element name="determinarDiaSemanaResponse" type="tns:determinarDiaSemanaResponse"/>
+
+<xs:element name="determinarResponse" type="tns:determinarResponse"/>
+
+<xs:element name="getCalendarioAD" type="tns:getCalendarioAD"/>
+
+<xs:element name="getCalendarioADResponse" type="tns:getCalendarioADResponse"/>
+
+<xs:element name="getComprobacionFechaCalendario" type="tns:getComprobacionFechaCalendario"/>
+
+<xs:element name="getComprobacionFechaCalendarioResponse" type="tns:getComprobacionFechaCalendarioResponse"/>
+
+<xs:element name="getDocente" type="tns:getDocente"/>
+
+<xs:element name="getDocenteResponse" type="tns:getDocenteResponse"/>
+
+<xs:element name="getHorarioDoc" type="tns:getHorarioDoc"/>
+
+<xs:element name="getHorarioDocResponse" type="tns:getHorarioDocResponse"/>
+
+<xs:element name="getHorarioDocenteCurso" type="tns:getHorarioDocenteCurso"/>
+
+<xs:element name="getHorarioDocenteCursoResponse" type="tns:getHorarioDocenteCursoResponse"/>
+
+<xs:element name="getPeriodoFinSem" type="tns:getPeriodoFinSem"/>
+
+<xs:element name="getPeriodoFinSemResponse" type="tns:getPeriodoFinSemResponse"/>
+
+<xs:element name="getPeriodoInicioSem" type="tns:getPeriodoInicioSem"/>
+
+<xs:element name="getPeriodoInicioSemResponse" type="tns:getPeriodoInicioSemResponse"/>
+
+<xs:element name="getProbarq" type="tns:getProbarq"/>
+
+<xs:element name="getProbarqResponse" type="tns:getProbarqResponse"/>
+
+<xs:element name="getProbarqVELE" type="tns:getProbarqVELE"/>
+
+<xs:element name="getProbarqVELE2COM" type="tns:getProbarqVELE2COM"/>
+
+<xs:element name="getProbarqVELE2COMResponse" type="tns:getProbarqVELE2COMResponse"/>
+
+<xs:element name="getProbarqVELEResponse" type="tns:getProbarqVELEResponse"/>
+
+<xs:element name="obtenerMes" type="tns:obtenerMes"/>
+
+<xs:element name="obtenerMesResponse" type="tns:obtenerMesResponse"/>
+
+<xs:element name="obtenerUltimoDiaMes" type="tns:obtenerUltimoDiaMes"/>
+
+<xs:element name="obtenerUltimoDiaMesResponse" type="tns:obtenerUltimoDiaMesResponse"/>
+
+<xs:element name="obtener_dis_entre_2_fechas" type="tns:obtener_dis_entre_2_fechas"/>
+
+<xs:element name="obtener_dis_entre_2_fechasResponse" type="tns:obtener_dis_entre_2_fechasResponse"/>
+
+<xs:element name="setCalendario" type="tns:setCalendario"/>
+
+<xs:element name="setCalendarioResponse" type="tns:setCalendarioResponse"/>
+
+<xs:complexType name="getPeriodoInicioSem">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getPeriodoInicioSemResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtener_dis_entre_2_fechas">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="obtener_dis_entre_2_fechasResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ParseException">
+<xs:sequence>
+<xs:element name="errorOffset" type="xs:int"/>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getHorarioDocenteCurso">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getHorarioDocenteCursoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setCalendario">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setCalendarioResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDocente">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDocenteResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getComprobacionFechaCalendario">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getComprobacionFechaCalendarioResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getProbarqVELE2COM">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getProbarqVELE2COMResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getProbarqVELE">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getProbarqVELEResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtenerMes">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtenerMesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtenerUltimoDiaMes">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="obtenerUltimoDiaMesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getHorarioDoc">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getHorarioDocResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="determinar">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="determinarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getPeriodoFinSem">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getPeriodoFinSemResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCalendarioAD">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCalendarioADResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cCalendario" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cCalendario">
+<xs:sequence>
+<xs:element name="strdocumento" type="xs:string" minOccurs="0"/>
+<xs:element name="strestado" type="xs:string" minOccurs="0"/>
+<xs:element name="strfechafin" type="xs:string" minOccurs="0"/>
+<xs:element name="strfechainicio" type="xs:string" minOccurs="0"/>
+<xs:element name="strhorafin" type="xs:string" minOccurs="0"/>
+<xs:element name="strhorainicio" type="xs:string" minOccurs="0"/>
+<xs:element name="strid" type="xs:string" minOccurs="0"/>
+<xs:element name="strmotivo" type="xs:string" minOccurs="0"/>
+<xs:element name="strperiodo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getProbarq">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getProbarqResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="determinarDiaSemana">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="determinarDiaSemanaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
